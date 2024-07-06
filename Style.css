@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #D6D6D6;
+}
+h2{
+    text-align: center;
+    font-size: 1.60rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem ;
+    min-height: 45vh;
+    width: 40vh;
+}
+form{
+    margin: 2rem 0 2rem 0;
+}
+form select, button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+}
+.dropdwon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdwon i{
+    margin-top: 2rem;    
+}
+.select_contaner img{
+    max-width: 2rem;
+}
+.select_contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 2px solid lightgray;
+}
+
+.select_contaner select{
+    font-size: 1rem;
+    width: auto;
+}
+
+.Mesg{
+    margin: 2.5rem 0 2.5rem 0;
+}
+form button{
+    /* margin-top: 1rem; */
+    height: 3rem;
+    background-color: #af4d98;
+    color: #ffffff;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+.dropdwon p{
+    font-size: 1.20rem;
+    text-shadow: 0 0 1px black;
+    margin-bottom: 0.80rem;
+}
