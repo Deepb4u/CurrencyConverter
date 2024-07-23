@@ -7,7 +7,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #D6D6D6;
+    background: url(./assest/Currency\ Img.webp);
+    opacity: 0.92;
 }
 h2{
     text-align: center;
@@ -15,7 +16,7 @@ h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container{
-    background-color: #ffffff;
+    background-color: #ece9f3;
     padding: 2rem;
     border-radius: 1rem ;
     min-height: 45vh;
